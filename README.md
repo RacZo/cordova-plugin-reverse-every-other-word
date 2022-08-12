@@ -1,8 +1,23 @@
-# cordova-plugin-reverse-every-other-word
+# Reverser
 
-This is a simple Cordova plugin created with plugman 3.0.1 that receives an input, uses native code to process said input and returns an output.
+## cordova-plugin-reverser
+
+This is a simple plugin created with plugman 3.0.1 that receives an input, uses native code to process said input and returns an output. A simple Cordova app (for testing purposes) is also here.
+
 
 ## Responsibilities
+
+
+### Plugin
+
+Name: Reverser Cordova Plugin
+Package: dev.oscarsalguero.reversercordovaplugin
+Folder: reversercordovaplugin
+
+1. Receive an input of type String, consisting of a sentence and use native functions to reverse every other word in that sentence. The reversal of every other word in the sentence is done natively, with Swift for iOS and with Kotlin for Android.
+
+2. Returns the processed sentence to the user.
+
 
 ### Sample Application
 
@@ -26,15 +41,3 @@ App Supported platforms:
 ##### iOS Details:
 
 - Created with: cordova-ios@6.2.0
-
-
-### Plugin
-
-Name: Reverser Cordova Plugin
-Package: dev.oscarsalguero.reversercordovaplugin
-Folder: reversercordovaplugin
-
-1. Receive an input of type String, consisting of a sentence and use native functions to reverse every other word in that sentence. The reversal of every other word in the sentence is done natively, with Swift for iOS and with Kotlin for Android.
-
-2. Returns the processed sentence to the user.
-
