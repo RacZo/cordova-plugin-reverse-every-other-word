@@ -8,11 +8,10 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <icon src="res/icon.png" />
-    <icon density="mdpi" src="res/android/mdpi.png" />
-    <icon density="hdpi" src="res/android/hdpi.png" />
-    <icon density="xhdpi" src="res/android/xhdpi.png" />
-    <icon density="xxhdpi" src="res/android/xxhdpi.png" />
-    <icon density="xxxhdpi" src="res/android/xxxhdpi.png" />
+    <icon density="mdpi" src="res/icons/android/mdpi.png" />
+    <icon density="hdpi" src="res/icons/android/hdpi.png" />
+    <icon density="xhdpi" src="res/icons/android/xhdpi.png" />
+    <icon density="xxhdpi" src="res/icons/android/xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>
