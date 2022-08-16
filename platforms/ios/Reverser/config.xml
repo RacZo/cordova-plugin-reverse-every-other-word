@@ -40,16 +40,15 @@
     <icon height="152" src="res/ios/Icon-76@2x.png" width="152" />
     <icon height="40" src="res/ios/Icon-Small-40.png" width="40" />
     <icon height="80" src="res/ios/Icon-Small-40@2x.png" width="80" />
-    <icon height="57" src="res/ios/icon.png" width="57" />
-    <icon height="114" src="res/ios/icon@2x.png" width="114" />
+    <icon height="57" src="res/ios/Icon.png" width="57" />
+    <icon height="114" src="res/ios/Icon@2x.png" width="114" />
     <icon height="72" src="res/ios/Icon-72.png" width="72" />
     <icon height="144" src="res/ios/Icon-72@2x.png" width="144" />
-    <icon height="29" src="res/ios/Icon-small.png" width="29" />
-    <icon height="58" src="res/ios/Icon-small@2x.png" width="58" />
-    <icon height="87" src="res/ios/Icon-small@3x.png" width="87" />
+    <icon height="29" src="res/ios/Icon-Small.png" width="29" />
+    <icon height="58" src="res/ios/Icon-Small@2x.png" width="58" />
+    <icon height="87" src="res/ios/Icon-Small@3x.png" width="87" />
     <icon height="50" src="res/ios/Icon-Small-50.png" width="50" />
     <icon height="100" src="res/ios/Icon-Small-50@2x.png" width="100" />
-    <icon height="1024" src="res/ios/iTunesArtwork@2x.png" width="1024" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
