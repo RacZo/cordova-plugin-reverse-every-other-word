@@ -31,7 +31,7 @@ public class ReverserPlugin extends CordovaPlugin {
                 if(i%2 == 0){
                     sb.append(wordArray[i]);
                     sb.append(" ");
-                }else{ 
+                } else { 
                     sb.append(new StringBuilder(wordArray[i]).reverse());
                     sb.append(" "); 
                 }

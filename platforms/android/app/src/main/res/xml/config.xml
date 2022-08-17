@@ -3,6 +3,9 @@
     <feature name="reverserplugin">
         <param name="android-package" value="dev.oscarsalguero.reverserplugin.reverserplugin" />
     </feature>
+    <feature name="ReverserPlugin">
+        <param name="android-package" value="dev.oscarsalguero.reverserplugin.ReverserPlugin" />
+    </feature>
     <name>Reverser</name>
     <description>Simple Apache Cordova Test App for the Reverser Plugin.</description>
     <author email="info@oscarsalguero.com" href="https://oscarsalguero.dev">
@@ -17,7 +20,4 @@
     <icon density="xxhdpi" src="res/icons/android/xxhdpi.png" />
     <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
-    <feature name="ReverserPlugin">
-        <param name="android-package" value="dev.oscarsalguero.reverserplugin.ReverserPlugin" />
-    </feature>
 </widget>
