@@ -1,11 +1,6 @@
-# Reverser
+# Reverser App and Plugin
 
-## cordova-plugin-reverser
-
-This repository contains a simple cordova app and a plugin created with plugman.
-
-
-## Responsibilities
+This repository contains a simple cordova app and a plugin that reverses every other word of a sentence.
 
 
 ### Plugin
@@ -14,43 +9,106 @@ Name: reverserplugin
 Package: dev.oscarsalguero.reverserplugin
 Folder: reverserplugin
 
-1. Receive an input of type String, consisting of a sentence and use native functions to reverse every other word in that sentence. The reversal of every other word in the sentence is done natively, with Swift for iOS and with Kotlin for Android.
+1. Receives user input, a sentence (String) from the app, consisting of a sentence and uses native code in Java for Android or Objective-C for iOS to reverse every other word in that sentence.
 
-2. Returns the processed sentence to the user.
+2. Returns the processed otput to the app's UI to show it to the user.
 
 
-### Sample Application
+### Reverser App
 
-1. Send the input String with the sentence to the plugin.
+1. Capture user input trough a text area and send it to the cordova plugin.
 
-2. Display the output received from the plugin.
+2. Display the output or result received from the plugin.
 
-App Supported platforms:
+Supported platforms:
 
-#### Android & iOS App
+- Android
+- iOS
 
-- Name: Reverser
 
-##### Android Details:
-
-![Android App Launcher Icon](screenshots/reverser-android-icon.png)
-
-![Android App UI With Sample Input](screenshots/reverser-android-index.png)
-
-![Android App Input Reversed](screenshots/reverser-android-index-reversed.png)
-
+#### Android Details:
 
 - Activity: MainActivity
 - Android target: android-30
 - Created with: cordova-android@10.1.2
 
-##### iOS Details:
+<br>
 
-![iOS App Launcher Icon](screenshots/reverser-ios-icon.png)
+<img alt="Android App Launcher Icon" src="screenshots/reverser-android-icon.png" width="200" />
 
-![iOS App UI With Sample Input](screenshots/reverser-ios-index.png)
+Android App Launcher Icon
 
-![iOS App Input Reversed](screenshots/reverser-ios-index-reversed.png)
+<br>
+
+<img alt="Android App UI With Sample Input" src="screenshots/reverser-android-index.png" width="200" />
+
+Android App UI With Sample Input
+
+<br>
+
+<img alt="Android App Input Reversed By Plugin" src="screenshots/reverser-android-index-reversed.png" width="200" />
+
+Android App Input Reversed By Plugin
+
+<br>
+
+#### iOS Details:
 
 - Created with: cordova-ios@6.2.0
+
+<br>
+
+<img alt="iOS App Launcher Icon" src="screenshots/reverser-ios-icon.png" width="200" />
+
+iOS App Launcher Icon
+
+<br>
+
+<img alt="iOS App UI With Sample Input" src="screenshots/reverser-ios-index.png" width="200" />
+
+iOS App UI With Sample Input
+
+<br>
+
+<img alt="iOS App Input Reversed By Plugin" src="screenshots/reverser-ios-index-reversed.png" width="200" />
+
+iOS App Input Reversed By Plugin
+
+<br>
+<br>
+
+
+# How To Use
+
+Clone this repo:
+
+```
+git clone https://github.com/RacZo/cordova-plugin-reverser.git reverser
+```
+
+The sample app source will be in the root of the repository folder: 
+
+```
+reverser
+```
+
+The plugin's source code is in: 
+
+```
+reverser/reverserplugin
+```
+
+
+
+To add the plugin:
+
+```
+cordova plugin add file:./reverserplugin
+```
+
+To remove the plugin:
+
+```
+cordova plugin remove dev.oscarsalguero.reverserplugin
+```
 
