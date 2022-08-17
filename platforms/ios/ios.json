@@ -4,8 +4,36 @@
     "uninstalled": []
   },
   "config_munge": {
-    "files": {}
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"reverserplugin\"><param name=\"ios-package\" value=\"reverserplugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
   },
-  "installed_plugins": {},
-  "dependent_plugins": {}
+  "installed_plugins": {
+    "dev.oscarsalguero.reverserplugin": {
+      "PACKAGE_NAME": "dev.oscarsalguero.reversertest"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "dev.oscarsalguero.reverserplugin.reverserplugin",
+      "file": "plugins/dev.oscarsalguero.reverserplugin/www/reverserplugin.js",
+      "pluginId": "dev.oscarsalguero.reverserplugin",
+      "clobbers": [
+        "cordova.plugins.reverserplugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "dev.oscarsalguero.reverserplugin": "1.0.0"
+  }
 }

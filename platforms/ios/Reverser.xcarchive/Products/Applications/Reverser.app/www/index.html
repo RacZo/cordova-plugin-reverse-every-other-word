@@ -28,7 +28,8 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <link rel="shortcut icon" href="#" type="image/x-icon">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -40,16 +41,15 @@
         <div class="app" >
             <h1>Reverser</h1>
             <br>
-            <p>Enter a word or sentence, tap Reverse and let the <b>astonishingly incredible native iOS/Android platform power</b> reverse it.</p>
+            <p>Enter a word or sentence, tap Reverse and let the <b>astonishingly incredible native iOS/Android platform power</b> reverse every other word of it.</p>
             <br>
             <div class="justified">
-                <form>
-                    <textarea id="userInput" name="userInput" rows="5" cols="20">Every other word here will be reversed.</textarea>
-                    <button onclick="reverseUserInput()">Reverse</button>
-                </form>
+                <textarea id="userInput" name="userInput" rows="5" cols="20">Every other word here will be reversed.</textarea>
+                <button id="reverseInput" type="button">Reverse</button>
             </div>
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
+        <script src="js/custom.js"></script>
     </body>
 </html>

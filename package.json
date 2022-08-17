@@ -16,10 +16,14 @@
     "platforms": [
       "ios",
       "android"
-    ]
+    ],
+    "plugins": {
+      "dev.oscarsalguero.reverserplugin": {}
+    }
   },
   "devDependencies": {
     "cordova-android": "^10.1.2",
-    "cordova-ios": "^6.2.0"
+    "cordova-ios": "^6.2.0",
+    "reverserplugin": "file:reverserplugin"
   }
 }

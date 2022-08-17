@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "dev.oscarsalguero.reverserplugin": {
+      "PACKAGE_NAME": "dev.oscarsalguero.reversertest"
+    }
+  },
+  "dependent_plugins": {}
+}

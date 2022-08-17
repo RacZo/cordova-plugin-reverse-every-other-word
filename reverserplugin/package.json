@@ -1,0 +1,27 @@
+{
+  "name": "reverserplugin",
+  "version": "1.0.0",
+  "description": "A cordova plugin with a method that reverses every other word in a sentence.",
+  "cordova": {
+    "id": "dev.oscarsalguero.reverserplugin",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RacZo/cordova-plugin-reverser.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Oscar Salguero",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/RacZo/cordova-plugin-reverser/issues"
+  },
+  "homepage": "https://github.com/RacZo/cordova-plugin-reverser#readme"
+}

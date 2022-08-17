@@ -25,6 +25,9 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="reverserplugin">
+        <param name="ios-package" value="reverserplugin" />
+    </feature>
     <name>Reverser</name>
     <description>Simple Apache Cordova Test App for the Reverser Plugin.</description>
     <author email="info@oscarsalguero.com" href="https://oscarsalguero.dev">

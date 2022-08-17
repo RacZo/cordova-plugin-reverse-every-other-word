@@ -50,7 +50,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		lVFnn6RdY3A4dlLo0HWT4so5Xa0=
+		ahZwF0k/JVC1KlEZAEYRBFoih8s=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -84,17 +84,29 @@
 		<data>
 		/dczSMPeerMWvh34eyPVl4kzhJY=
 		</data>
+		<key>www/cordova_plugins.js</key>
+		<data>
+		wTUzYZReLqTKsD9vVDid+GwSBNQ=
+		</data>
 		<key>www/css/index.css</key>
 		<data>
 		EDaC3U6qOZYnzbFq7lppsYEGW2A=
 		</data>
 		<key>www/index.html</key>
 		<data>
-		UlqePWUQjTovzhR6TUlA6xd1EmE=
+		VpdcyMAvxztvgPl3suVkjosv3lY=
+		</data>
+		<key>www/js/custom.js</key>
+		<data>
+		LPuwP4rSbpChVVS9iwF6GNSGvTI=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		DrH1taae11B0uQ6ME5XmoKc2a88=
+		lZAgaGUkMkgxVbyWcpPeqo4qG98=
+		</data>
+		<key>www/plugins/dev.oscarsalguero.reverserplugin/www/reverserplugin.js</key>
+		<data>
+		pTEfEwzHYpNuUW14mt2dKS4d0lQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -166,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pixxxFMKznXOBjOz1K01ofymrJU19crVNfBVssHxWE8=
+			y89HPJGTcZ9PazBeU4QNr9DdFBv70LC8DUUH3R59yQw=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -225,6 +237,13 @@
 			Q2J+JAXTKNDB6NaTWFSBjuPrJ2CrzBUs5UnylVdhVJU=
 			</data>
 		</dict>
+		<key>www/cordova_plugins.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			x5WFuFO1/+mnCXOSsWpgXmsP7TgW2MUiM0uNUYtL9ys=
+			</data>
+		</dict>
 		<key>www/css/index.css</key>
 		<dict>
 			<key>hash2</key>
@@ -236,14 +255,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mz4GMlGMtMhGuyZLiZw9jhIu+p28Gj7M67d12G6pzps=
+			VplihP90hc8VFetATeHwCCPIb9ZZZpe0OSbvCDRA57I=
+			</data>
+		</dict>
+		<key>www/js/custom.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N0TEjbWSqvk+aECYjVVXnnqjhtKvPmmY3iYF/63G558=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2ic6YoNB5IKSU6cunWAE+dt5IFjnO+D4VK4bz2A/CU=
+			NoP5CiMdBZe/WuOuzryQ8/cUzHZG011OPD6hODfaLN4=
+			</data>
+		</dict>
+		<key>www/plugins/dev.oscarsalguero.reverserplugin/www/reverserplugin.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F8oN9lCAnHxQ2HI9+pMkUI7nQpO0CXI+3IO9jEYd2ik=
 			</data>
 		</dict>
 	</dict>

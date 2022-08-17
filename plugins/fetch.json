@@ -1,1 +1,10 @@
-{}
+{
+  "dev.oscarsalguero.reverserplugin": {
+    "source": {
+      "type": "registry",
+      "id": "file:./reverserplugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
