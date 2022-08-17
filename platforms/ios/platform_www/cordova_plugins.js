@@ -10,6 +10,6 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     }
   ];
   module.exports.metadata = {
-    "dev.oscarsalguero.reverserplugin": "1.0.0"
+    "dev.oscarsalguero.reverserplugin": "1.0.1"
   };
 });

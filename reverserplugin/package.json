@@ -1,6 +1,6 @@
 {
   "name": "reverserplugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cordova plugin with a method that reverses every other word in a sentence.",
   "cordova": {
     "id": "dev.oscarsalguero.reverserplugin",
