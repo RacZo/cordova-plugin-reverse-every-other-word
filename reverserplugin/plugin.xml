@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="dev.oscarsalguero.reverserplugin" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="dev.oscarsalguero.reverserplugin" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>reverserplugin</name>
     <js-module name="ReverserPlugin" src="www/reverserplugin.js">
         <clobbers target="cordova.plugins.ReverserPlugin" />
