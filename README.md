@@ -3,22 +3,26 @@
 This repository contains a simple cordova app and a plugin that reverses every other word of a sentence.
 
 
-### Plugin
+## Plugin
 
-Name: reverserplugin
-Package: dev.oscarsalguero.reverserplugin
-Folder: reverserplugin
+- Name: reverserplugin 
+- Package: dev.oscarsalguero.reverserplugin 
+- Folder: reverserplugin 
+
+### What does this plugin do?
 
 1. Receives user input, a sentence (String) from the app, consisting of a sentence and uses native code in Java for Android or Objective-C for iOS to reverse every other word in that sentence.
 
 2. Returns the processed otput to the app's UI to show it to the user.
 
 
-### Reverser App
+## App
 
-1. Capture user input trough a text area and send it to the cordova plugin.
+Written in HTML, CSS and JavaScript.
 
-2. Display the output or result received from the plugin.
+1. The app captures user input trough a textarea and sends it to the cordova plugin upon tapping a button.
+
+2. Once a processed output has been retrieved from the plugin, the app displays the output or result received from the plugin in the same textarea it was entered.
 
 Supported platforms:
 
