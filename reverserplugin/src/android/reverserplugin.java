@@ -10,7 +10,7 @@ import org.json.JSONObject;
 /**
  * This class has a method that reverses every other word in a sentence sent from JavaScript.
  */
-public class RreverserPlugin extends CordovaPlugin {
+public class ReverserPlugin extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
@@ -30,7 +30,9 @@ public class RreverserPlugin extends CordovaPlugin {
             for(int i = 0 ; i< wordArray.length; i++){
                 if(i%2 == 0){
                     sb.append(wordArray[i]);
-                }else{ sb.append(new StringBuilder(wordArray[i]).reverse());
+                    sb.append(" ");
+                }else{ 
+                    sb.append(new StringBuilder(wordArray[i]).reverse());
                     sb.append(" "); 
                 }
             }

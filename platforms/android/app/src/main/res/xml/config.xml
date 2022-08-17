@@ -17,4 +17,7 @@
     <icon density="xxhdpi" src="res/icons/android/xxhdpi.png" />
     <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
+    <feature name="ReverserPlugin">
+        <param name="android-package" value="dev.oscarsalguero.reverserplugin.ReverserPlugin" />
+    </feature>
 </widget>

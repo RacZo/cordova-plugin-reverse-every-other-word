@@ -1,10 +1,8 @@
-/********* reverserplugin.m Cordova Plugin Implementation *******/
+/********* ReverserPlugin.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
-@interface ReverserPlugin : CDVPlugin {
-  // Member variables go here.
-}
+@interface ReverserPlugin : CDVPlugin 
 
 - (void)reverse:(CDVInvokedUrlCommand*)command;
 @end
@@ -20,19 +18,14 @@
         
         NSArray *wordsArray  = [userInput componentsSeparatedByString:@" "];
         NSMutableString *result = [NSMutableString string];
-        int i;
-        for(int i = 0; i < wordsArray.length; i = i + 1 ) {
+        for(int i = 0; i < sizeof(wordsArray)-1; i++) {
             if(i%2 == 0){
                 result = [result stringByAppendingString:wordsArray[i]];
+                result = [result stringByAppendingString:@" "];
             }else{
-                NSInteger charIndex = [wordsArray[i] length];
-                while (charIndex > 0) {
-                    charIndex--;
-                    NSRange subStrRange = NSMakeRange(charIndex, 1);
-                    [result appendString:[wordsArray[i] substringWithRange:subStrRange]];
-                }
+                result = [result stringByAppendingString: [self reverseString:wordsArray[i]]];
+                result = [result stringByAppendingString:@" "];
             }
-
         }
         
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:result];
@@ -41,6 +34,22 @@
     }
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+- (NSString *)reverseString:(NSString *)input {
+    NSUInteger len = [input length];
+    unichar *buffer = malloc(len * sizeof(unichar));
+    if (buffer == nil) return nil; // error!
+    [input getCharacters:buffer];
+
+    // reverse string; only need to loop through first half
+    for (NSUInteger stPos=0, endPos=len-1; stPos < len/2; stPos++, endPos--) {
+        unichar temp = buffer[stPos];
+        buffer[stPos] = buffer[endPos];
+        buffer[endPos] = temp;
+    }
+
+    return [[NSString alloc] initWithCharactersNoCopy:buffer length:len freeWhenDone:YES];
 }
 
 @end

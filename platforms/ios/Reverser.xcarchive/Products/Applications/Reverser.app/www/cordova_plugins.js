@@ -1,11 +1,11 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports = [
     {
-      "id": "dev.oscarsalguero.reverserplugin.reverserplugin",
+      "id": "dev.oscarsalguero.reverserplugin.ReverserPlugin",
       "file": "plugins/dev.oscarsalguero.reverserplugin/www/reverserplugin.js",
       "pluginId": "dev.oscarsalguero.reverserplugin",
       "clobbers": [
-        "cordova.plugins.reverserplugin"
+        "cordova.plugins.ReverserPlugin"
       ]
     }
   ];

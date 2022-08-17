@@ -25,4 +25,13 @@ function onDeviceReady() {
     // Cordova is now initialized. Have fun!
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
 
+    if(cordova && cordova.plugins) {
+        console.log('cordova.plugins is available');
+        if(cordova.plugins.ReverserPlugin) {
+            console.log('ReverserPlugin is available');
+        }
+    } else {
+        console.log('cordova.plugins NOT available');
+    }
+
 }

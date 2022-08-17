@@ -11,6 +11,10 @@
             {
               "xml": "<feature name=\"reverserplugin\"><param name=\"ios-package\" value=\"reverserplugin\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"ReverserPlugin\"><param name=\"ios-package\" value=\"ReverserPlugin\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -25,11 +29,11 @@
   "dependent_plugins": {},
   "modules": [
     {
-      "id": "dev.oscarsalguero.reverserplugin.reverserplugin",
+      "id": "dev.oscarsalguero.reverserplugin.ReverserPlugin",
       "file": "plugins/dev.oscarsalguero.reverserplugin/www/reverserplugin.js",
       "pluginId": "dev.oscarsalguero.reverserplugin",
       "clobbers": [
-        "cordova.plugins.reverserplugin"
+        "cordova.plugins.ReverserPlugin"
       ]
     }
   ],
