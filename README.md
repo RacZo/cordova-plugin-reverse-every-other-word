@@ -9,6 +9,7 @@ This repository contains a simple cordova app and a plugin that reverses every o
 - Package: dev.oscarsalguero.reverserplugin 
 - Folder: reverserplugin 
 
+
 ### What does this plugin do?
 
 1. Receives user input, a sentence (String) from the app, consisting of a sentence and uses native code in Java for Android or Objective-C for iOS to reverse every other word in that sentence.
@@ -84,7 +85,7 @@ iOS App Input Reversed By Plugin
 
 # How To Use
 
-Clone this repo:
+## Cloning This Repository
 
 ```
 git clone https://github.com/RacZo/cordova-plugin-reverser.git reverser
@@ -116,3 +117,7 @@ To remove the plugin:
 cordova plugin remove dev.oscarsalguero.reverserplugin
 ```
 
+
+## Also Available Via NPM
+
+- URL: https://www.npmjs.com/package/reverserplugin
